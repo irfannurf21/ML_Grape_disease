@@ -16,6 +16,22 @@ Hasil evaluasi model:
 - **Akurasi validasi**: 99.11%
 - **Akurasi pengujian (test)**: 98.67%
 
+Struktur file
+```md 
+├───tfjs_model 
+│   ├───group1-shard1of1.bin 
+│   └───model.json 
+├───tflite 
+│   ├───model.tflite 
+│   └───label.txt 
+├───saved_model 
+│   ├───saved_model.pb 
+│   └───variables 
+├───notebook.ipynb 
+├───README.md 
+└───requirements.txt
+```
+
 ## Instalasi
 
 Untuk menginstal dependensi yang diperlukan, jalankan perintah berikut:
